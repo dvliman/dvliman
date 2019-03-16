@@ -14,6 +14,7 @@
 
 (def writings
   {:spring-webflux-kotlin-postgresql "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"})
+
 (defn home-page []
   [:article
    [:section
@@ -27,8 +28,16 @@
     [:ul
      [:li "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"]]]])
 
+(defn webflux-article []
+  [:article
+   [:p "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"]
+   [:p "test body"]])
+
 (defroutes app-routes
   (GET "/" [] (base "dvliman.com" (home-page)))
+  ;(GET "/articles/spring-webflux-kotlin-postgresql"
+  ;  (base "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"
+  ;    (webflux-article))
   (route/resources "/")
   (route/not-found "Not Found"))
 
