@@ -9,80 +9,88 @@
   (html5 {:lang "en"}
     [:head
      [:title title]
-     (include-css "//edwardtufte.github.io/tufte-css/tufte.css")
+     (include-css "//mrmrs.github.io/writing/css/tachyons.min.css")
      [:body content]]))
 
-(def articles
-  {:spring-webflux-kotlin-postgresql
-     "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"})
+(defn bullet-point [href title]
+  [:li.p10
+   [:a.f4.link.blue.dim {:href href} title]])
 
-(defn home-page []
-  [:article
-   [:section
-    [:p {:class "subtitle"} "About David"]
-    [:figure
-     [:img {:src "/img/davidliman.jpg"}]]
-    [:p "Hi, my name is David Liman. I am a software craftsman who loves solving problems with functional paradigm. I look for simple solutions to complex problems"]]
-   [:section
-    [:h2 "Articles"]
-    [:ul
-     [:li "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"]]]])
+(defn bullet-point-with-section [section href title]
+  [:li.p10
+   [:span.f4 section]
+   [:a.f4.link.blue.dim {:href href} title]])
 
-(defn webflux-article []
-  [:section
-   [:h1 "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"]
-   [:p "This post shows how to create a reactive web service with Spring Webflux, Kotlin, PostgreSQL"]
-   [:blockquote
-    [:p [:strong "Context: "] [:a {:href "https://spring.io/"} "Spring Framework 5"] " introduced the so-called "
-     [:strong "Reactive Stack"] ". The " [:code "reactive"] " keyword refers to the "
-     [:a {:href "https://www.reactivemanifesto.org/"} "Reactive Manifesto"]
-     ", which is a standard " [:a {:href "https://github.com/reactive-streams/reactive-streams-jvm/blob/v1.0.0/README.md"}
-                               "specification"] " for asynchronous stream processing with non-blocking back-pressure in JVM languages.
-     In short, Spring Webflux is a non-blocking web framework that uses " [:a {:href "https://projectreactor.io/"} "Reactor"]
-     " library, which implements the Reactive Streams Specifications, to asynchronously manage HTTP requests."]]
-   [:h2 "Requirements"]
-   [:p "Say we want to build an HTTP service that can do the following:"]
-   [:ul
-    [:li [:code "POST /api/users/create"] " (write a user record)"]
-    [:li [:code "POST /api/users/fetch"] " (read a user record)"]
-    [:li [:code "POST /api/users/all"] " (to demonstrate Mono vs. Flux)"]]
-   [:p "First, I would use "[:a {:href "https://start.spring.io/"} "Spring Initializr" ] " to bootstrap the project.
-   This helps setup our dependencies and gradle tasks necessary to get the server running "]
-   [:ul
-    [:li [:strong "Project: "] "Gradle Project"]
-    [:li [:strong "Language: "] "Kotlin"]
-    [:li [:strong "Spring Boot: "] "2.2.0 (SNAPSHOT)"]
-    [:li [:strong "Group: "] "com.dvliman"]
-    [:li [:strong "Artifact: "] "demo"]
-    [:li [:strong "Dependencies: "] "Reactive Web"]]
-   [:p "Generate Project -  ⌘ + ⏎"]
-   [:p "Next, let's add additional dependencies in " [:code "build.gradle"]]
-   [:pre.code "
-      dependencies {
-          ...
-          implementation 'com.github.davidmoten:rxjava2-jdbc:0.2.2'
-          implementation 'org.postgresql:postgresql:42.2.5'
-      }"]
-   [:blockquote [:p [:strong "Note: "] "At the time of writing, there is no \"official\" reactive JDBC drivers. JDBC is inherently a blocking API.
-    It will take while for JDBC async API to become a standard. However, there some third-party libraries that
-    we can use. These libraries typically use non-blocking thread pool to execute IO calls and exposes the
-    reactive / reactor interfaces such as Mono and Flux. I picked David Moten's RxJava2 library because it has good
-    documentation and I can understand the code"]]
-   [:h2 "Coding..."]
-   [:p "Now, with all dependencies we need, we can start with writing configurations i.e
-   your database connection url. Say we define a " [:code "config file."]]
-   [:p "Then we add " [:code "Beans.kt"] ", which would contains all the beans in the your system"]
-   [:p "Here, there is a bean that connects to your database, and other singletons in your system you need"]
-   [:p "Well, we have an active database connection. It is a good time to start defining (data) models we need
-   to express the business flows (\"CRUD on users\")"]
-   [:p "That looks good! Now we need write code that would persist your data into database, and, of course, allows you
-   to query back the data."]])
+(defn articles []
+  [:div.f3 "Articles"
+   [:ul.p10
+    (bullet-point "https://medium.com/@dvliman/building-a-reactive-web-service-with-spring-webflux-kotlin-and-postgresql-71c4e0c2f870"
+      "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL")
+    (bullet-point "https://flutter.io/" "Flutter app tutorial (coming Soon)")]])
+
+(defn links []
+  [:div.f3 "Links"
+   [:ul.p10
+    (bullet-point-with-section "Github: " "https://github.com/dvliman" "https://github.com/dvliman")
+    (bullet-point-with-section "Resume: " "https://github.com/dvliman/dvliman.github.io/blob/gh-pages/limandavid.pdf" "limandavid.pdf")
+    (bullet-point-with-section "Linkedin: " "https://www.linkedin.com/in/limandavid/" "https://www.linkedin.com/in/limandavid/")]])
+
+(defn home []
+  [:main
+   [:header.pa3.ph6-ns.mt3.mtr-ns.mb0
+    [:h1.ttu.tracked.f3 "David Liman"]
+    [:p.f3.lh-copy.measure
+     "I am a (backend) Software Engineer living in Los Angeles.
+     I love solving complex problems with simple solutions"]
+    [:p.f3.lh-copy.measure
+     "I have experience working at different software businesses. See my " [:a.link.blue {:href "/work-experience.html"} "work experience."]]
+    (links)
+    (articles)]])
+
+(defn experience []
+  [:main
+   [:header.pa3.ph6-ns.mt3.mtr-ns.mb0
+    [:h1.ttu.tracked.f3 "Work Experience"]
+
+    [:h3.tracked.f4.bb.measure "Guardtime (2018 - Present)"]
+    [:p.f3.lh-copy.measure "I am designing supply chain solutions with Guardtime's proprietary digital timestamping service
+     called KSI (Keyless Signing Infrastructure). I am also looking into suitable architecture for permissioned blockchain applications."]
+
+    [:h3.tracked.f4.bb.measure "Tigertext (2015 - 2018)"]
+    [:p.f3.lh-copy.measure
+     "I was a Platform Engineer at TigerText in charge of a real-time messaging platform that was written in Erlang.
+     I worked on many product features such as chat rooms and chat bots, do-not-disturb auto-forwarding, etc."]
+
+    [:p.f3.lh-copy.measure "As the business grows, we also helped evolved our chat server from pure secure messaging system to a communication
+     platform (moving off from XMPP to HTTP Server Sent Event with API support). We built a number of services such as
+     SMTP email gateway, push notifications services for iOS (APNS) and Android (GCM),
+     document / image conversion system powered by a Redis-based worker queues"]
+
+    [:p.f3.lh-copy.measure "Thanks to our efforts, TigerText is used as a reliable message delivery system by many hospitals
+     and health care organizations in the U.S."]
+
+    [:p.f3.lh-copy.measure "Personally, I learned a lot building highly concurrent, fault-tolerant servers and functional programming.
+    Thanks to Erlang and OTP Framework"]
+
+    [:h3.tracked.f4.bb.measure "Zipfworks (2014 - 2015)"]
+    [:p.f3.lh-copy.measure "Zipfworks is an ideation / media lab that owns a few digital products such as
+     BluePromoCode (a coupon site), StyleSpotter (fashion aggregator site)."]
+
+    [:p.f3.lh-copy.measure "As a Backend Engineer, I worked on building API services that powers our
+    deals database, product listings and images that we scrapped from merchants and manufacturers. Some features include
+    custom coupon ranking, similar coupons, social network integrations."]
+
+    [:p.f3.lh-copy.measure "I enjoyed my time here as the company culture allows us to experiment; be creative.
+    I hacked up a product-category classifier using Naive Bayes algorithm from python " [:a {:href "https://www.nltk.org/"} "NLTK"]
+    " library, built image resizing http proxy in Scala with " [:a {:href "https://github.com/sksamuel/scrimage"} "sksamuel/scrimage"],
+    ". Played with Docker before orchestration layer matures. Fun time."]
+
+    [:h3.tracked.f4.bb.measure "OneScreen, Data Engineer (2013 - 2014)"]
+    [:h3.tracked.f4.bb.measure "IBM, Software Engineer (2011 - 2013)"]]])
 
 (defroutes app-routes
-  (GET "/" [] (base "dvliman.com" (home-page)))
-  (GET "/articles/spring-webflux-kotlin-postgresql" []
-    (base "Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL"
-      (webflux-article)))
+  (GET "/" [] (base "dvliman.com" (home)))
+  (GET "/work-experience.html" [] (base "dvliman.com" (experience)))
   (route/resources "/")
   (route/not-found "Not Found"))
 
