@@ -59,8 +59,7 @@
     [:h3.tracked.f4.bb.measure "Tigertext (2015 - 2018)"]
     [:p.f3.lh-copy.measure.
      "I was a Platform Engineer at TigerText in charge of a real-time messaging platform that was written in Erlang.
-     I worked on many product features such as chat rooms, chat bots, do-not-disturb auto-forwarding, CSV importer for nurses's schedules, etc."]
-
+     I worked on many product features such as chat rooms, chat bots, do-not-disturb auto-forwarding, CSV importer for nurses's schedules, file uploads, etc."]
 
     [:p.f3.lh-copy.measure "As the business grows, we also helped evolved our chat server from only a secure messaging system to a communication
      platform (moving off from XMPP to HTTP Server Sent Event with API support). We built a number of services such as
@@ -87,21 +86,18 @@
 
     [:h3.tracked.f4.bb.measure "OneScreen, Data Engineer (2010 - 2011) and (2013 - 2014)"]
     [:p.f3.lh-copy.measure "I had one year internship before I was re-hired again as a Data Engineer.
-    My first task was to maintain a data pipeline that runs " [:a {:href "https://github.com/twitter/scalding"} "Scalding"] " (MapReduce jobs)
+    My first task was to maintain a data pipeline that runs " [:a {:href "https://github.com/twitter/scalding"} "Scalding"] " (MapReduce job)
     on log files from our ads servers that is already nicely bucketed per hour in S3. The end results get stored
     in " [:a {:href "https://www.vertica.com/"} "Vertica."]]
 
     [:p.f3.lh-copy.measure "The MapReduce job computes watch counts, video-view quartiles, device type, and
-    a bunch of other dimensions that we use for reporting & billing purposes."]
+    a bunch of other dimensions that we use for reporting and billing purposes."]
 
     [:p.f3.lh-copy.measure "Unfortunately, the company went under 6 months after I joined. I really enjoyed
     the scales and technical challenges in ad-tech industry. "]
 
     [:h3.tracked.f4.bb.measure "IBM, Software Engineer (2011 - 2013)"]
-    [:p.f3.lh-copy.measure "IBM was my first job out of college. Interestingly, I got the offer by participating
-    IBM ICPC Programing Contest " [:a {:href "http://socalcontest.org/history/2011/details-2011.shtml"} "(CPP Team 4!)"]]
-
-    [:p.f3.lh-copy.measure "I worked on a project called Lifecycle Query Engine. It indexes "
+    [:p.f3.lh-copy.measure "IBM was my first job out of college. I worked on a project called Lifecycle Query Engine. It indexes "
     [:a {:href "https://www.w3.org/RDF/"} "RDF triplets"] " and process " [:a {:href "https://en.wikipedia.org/wiki/SPARQL"} "SPARQL"] " queries"]
 
     [:p.f3.lh-copy.measure "I remember doing everything from building web UI with Dojo Toolkit (IBM's internal web framework)
