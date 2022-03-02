@@ -1,7 +1,7 @@
 Hi there 👋, I am David Liman. 
 
 A software craftsman with more than a decade of experience building backend services. Never afraid to dig deep and solve any technical challenges.
-I have worked in different industries from advertising, medical, and fitness space. I work well in high trust, collaborative environment
+I have worked in different industries from advertising, medical, and fitness space. I work well in a high trust, collaborative environment
 
 If you have any software project, let's chat!
 
@@ -27,7 +27,7 @@ React, React Native, Akka, Hadoop (EMR), CircleCI, Datadog
 - [Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL](https://medium.com/@dvliman/building-a-reactive-web-service-with-spring-webflux-kotlin-and-postgresql-71c4e0c2f870)
 - TODO: blog about building dactyl manuform mechanical keyboard
 
-## Personal project
+## Personal projects
 - [Save Geolocation App](https://apps.apple.com/us/app/save-geolocation-app/id1585748773): learning React Native
 - [interleaved/naptime](https://github.com/interleaved/naptime): A Clojure library that automatically converts HTTP request into PostgreSQL queries
 - and many discontinued projects! Happy to talk about!
