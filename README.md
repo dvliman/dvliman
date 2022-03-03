@@ -1,11 +1,11 @@
 Hi there 👋, I am David Liman. 
 
-I am a software engineer with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space.
+I am a software engineer with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space. 
 
-Want to work together? Need help fixing your tech? I provide clarity and alignment with the business. I am never afraid to dig deep and deliver high-quality and simple solutions.
+My ideal role would involve designing, building, documenting, and maintaining software systems. I am happiest when I can alternate high-level and low-level work. I believe people do their best thinking when they come together to solve problems, when they are supported, respected, and growing. I find bottom-up leadership more appealing. 
 
 ## Location
-I live in Los Angeles, California, and have worked remotely for the past five years.
+I am based in Los Angeles, California but prefer to work as part of a mostly or fully distributed teams.
 
 ## Work projects
 - [IBM](https://ibm.com/): developer tools. [Rational Concert](https://jazz.net/products/rational-team-concert)
@@ -18,6 +18,7 @@ I live in Los Angeles, California, and have worked remotely for the past five ye
 the [backend and video pipeline from scratch](https://dev.to/dvliman/building-a-live-streaming-app-in-clojure-329m) in Clojure. Grow to 60k subscribers 
   
 ## Skills
+- Concepts: Problem analysis, Information architecture, Product design, Deep expertise in HTTP and API design.
 - Languages: Clojure, Go, Erlang, Java, Javascript, Scala
 - Databases: PostgreSQL, Redis, ElasticSearch
 - Tools: AWS, Docker, Kubernetes, Terraform, Ansible, Kafka, FFMPEG, 
