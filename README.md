@@ -1,9 +1,14 @@
-Hi there 👋, I am David Liman. A software craftsman with more than a decade of experience building backend services. I have worked in different industries 
-from advertising, medical, and fitness space. If you have any software project, let's chat!
+Hi there 👋, I am David Liman. 
+
+I am a software craftsman with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech and fitness space. 
+
+I provide clarity. I bring collaborative, high trust culture to any workspace. I am known to deliver high-quality and simple solutions.
 
 ## Work projects
+- [IBM](https://ibm.com/): developer tools. [Rational Concert](https://jazz.net/products/rational-team-concert)
+- Onescreen now [Adaptive Media](https://www.adaptivem.com/adaptive-medias-announces-licensing-agreement-with-onescreen/): Adtech, click streams, impressions. Data engineering.
 - [TigerConnect](https://apps.apple.com/us/app/tigerconnect/id355832697): A secure text messaging / communication platform for hospitals. I handle the [erlang](https://www.erlang.org/) chat servers. Message delivery guarantees, message routing / escalations, chatbots.
-- [Aspiration banking](https://aspiration.com): Fintech, digital banking. Handles debit card account management. Fix subscription / billing systems.
+- [Aspiration](https://aspiration.com): Fintech / digital banking. Issue/manage debit card, subscription/billing systems
 - [Zipcar](https://www.zipcar.com/): Mobility, connected car industry. Ingest telemetry data. Kafka streaming
 - [Guardtime](https://guardtime.com/): Help provide enterprise solution for [timestamping](https://datatracker.ietf.org/doc/html/rfc3161) service. Investigate blockchain solutions
 - [Inspire Fitness](https://apps.apple.com/us/app/inspire-fitness/id1324164741): A membership app to access on-demand & live workout videos. I built
@@ -22,7 +27,7 @@ React, React Native, CircleCI, Datadog
 
 ## Personal projects
 - [Save Geolocation App](https://apps.apple.com/us/app/save-geolocation-app/id1585748773)
-- [interleaved/naptime](https://github.com/interleaved/naptime): A Clojure library that automatically converts HTTP request into PostgreSQL queries
+- [interleaved/naptime](https://github.com/interleaved/naptime/blob/master/example/src/user.clj): A Clojure library that automatically converts HTTP request into PostgreSQL queries
 - and many discontinued projects! Happy to talk about
 
 ## Find me around the web 🌐
