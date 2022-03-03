@@ -1,6 +1,6 @@
 Hi there 👋, I am David Liman. 
 
-I am a software craftsman with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space.
+I am a software engineer with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space.
 
 Want to work together? Need help fixing your tech business? I provide clarity and alignment with business. I am known to never afraid to dig deep, and deliver high-quality and simple solutions.
 
