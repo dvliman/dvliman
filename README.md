@@ -28,7 +28,7 @@ React, React Native, CircleCI, Datadog
 ## Personal projects
 - [Save Geolocation App](https://apps.apple.com/us/app/save-geolocation-app/id1585748773)
 - [interleaved/naptime](https://github.com/interleaved/naptime/blob/master/example/src/user.clj): A Clojure library that automatically converts HTTP request into PostgreSQL queries
-- and many discontinued projects! Happy to talk about
+- and many discontinued projects! Happy to talk about all the lessons learned!
 
 ## Find me around the web 🌐
 - Twitter: [@dvliman](https://twitter.com/dvliman)
