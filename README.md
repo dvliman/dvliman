@@ -2,10 +2,10 @@ Hi there 👋, I am David Liman.
 
 I am a software engineer with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space.
 
-Want to work together? Need help fixing your tech business? I provide clarity and alignment with business. I am known to never afraid to dig deep, and deliver high-quality and simple solutions.
+Want to work together? Need help fixing your tech? I provide clarity and alignment with the business. I am never afraid to dig deep and deliver high-quality and simple solutions.
 
 ## Location
-I live in Los Angeles, California. I have been working remotely for the past 5 years.
+I live in Los Angeles, California, and have worked remotely for the past five years.
 
 ## Work projects
 - [IBM](https://ibm.com/): developer tools. [Rational Concert](https://jazz.net/products/rational-team-concert)
@@ -30,8 +30,8 @@ React, React Native, CircleCI, Datadog
 
 ## Personal projects
 - [Save Geolocation App](https://apps.apple.com/us/app/save-geolocation-app/id1585748773)
-- [interleaved/naptime](https://github.com/interleaved/naptime/blob/master/example/src/user.clj): A Clojure library that automatically converts HTTP request into PostgreSQL queries
-- and many discontinued projects! Happy to talk about all the lessons learned!
+- [interleaved/naptime](https://github.com/interleaved/naptime/blob/master/example/src/user.clj): A Clojure library that automatically converts HTTP requests into PostgreSQL queries
+- And many discontinued projects! Happy to talk about all the lessons learned!
 
 ## Find me around the web 🌐
 - Twitter: [@dvliman](https://twitter.com/dvliman)
