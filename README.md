@@ -2,7 +2,9 @@ Hi there 👋, I am David Liman.
 
 I am a software engineer with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space. 
 
-My ideal role would involve designing, building, documenting, and maintaining software systems. I am happiest when I can alternate high-level and low-level work. I believe people do their best thinking when they come together to solve problems, when they are supported, respected, and growing. I find bottom-up leadership more appealing. 
+My ideal role would involve designing, building, documenting, and maintaining software systems. I am happiest when I can alternate high-level and low-level work. I am afraid to dig deep into any technology.
+
+I believe people do their best thinking when they come together to solve problems, when they are supported, respected, and growing. I find bottom-up leadership more appealing.
 
 ## Location
 I am based in Los Angeles, California but prefer to work as part of a mostly or fully distributed teams.
