@@ -2,7 +2,10 @@ Hi there 👋, I am David Liman.
 
 I am a software craftsman with over a decade of experience building backend services. I have worked in different industries, from advertising, medical, fintech, and fitness space.
 
-I provide clarity. I am known to deliver high-quality and simple solutions to business problems. If you have any software project, let's chat! See how I can help.
+Want to work together? Need help fixing your tech business? I provide clarity and alignment with business. I am known to never afraid to dig deep, and deliver high-quality and simple solutions.
+
+## Location
+I live in Los Angeles, California. I have been working remotely for the past 5 years.
 
 ## Work projects
 - [IBM](https://ibm.com/): developer tools. [Rational Concert](https://jazz.net/products/rational-team-concert)
