@@ -10,7 +10,7 @@ I provide clarity. I am known to deliver high-quality and simple solutions to bu
 - [TigerConnect](https://apps.apple.com/us/app/tigerconnect/id355832697): A secure text messaging / communication platform for hospitals. I handle the [erlang](https://www.erlang.org/) chat servers. Message delivery guarantees, message routing/escalations, chatbots.
 - [Aspiration](https://aspiration.com): Fintech / digital banking. Issue/manage debit card, subscription/billing systems
 - [Zipcar](https://www.zipcar.com/): Mobility, connected car industry. Ingest telemetry data. Kafka streaming
-- [Guardtime](https://guardtime.com/): Help provide an enterprise solution for [timestamping](https://datatracker.ietf.org/doc/html/rfc3161) service. Investigate blockchain solutions
+- [Guardtime](https://guardtime.com/):  Investigate blockchain solutions. Solution engineer to help sell [timestamping](https://datatracker.ietf.org/doc/html/rfc3161) service.
 - [Inspire Fitness](https://apps.apple.com/us/app/inspire-fitness/id1324164741): A membership app to access on-demand & live workout videos. I built
 the [backend and video pipeline from scratch](https://dev.to/dvliman/building-a-live-streaming-app-in-clojure-329m) in Clojure. Grow to 60k subscribers 
   
