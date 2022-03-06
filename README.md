@@ -20,7 +20,7 @@ I am based in Los Angeles, California but prefer to work as part of a mostly or 
 the [backend and video pipeline from scratch](https://dev.to/dvliman/building-a-live-streaming-app-in-clojure-329m) in Clojure. Grow to 60k subscribers 
   
 ## Skills
-- Languages: Clojure, Go, Erlang, Java, Javascript, Scala
+- Languages: Clojure, Go, Erlang, Java, Javascript, Scala, PL/pgSQL
 - Databases: PostgreSQL, Redis, ElasticSearch
 - Tools: AWS, Docker, Kubernetes, Terraform, Ansible, Kafka, FFMPEG, 
 React, React Native, CircleCI, Datadog
