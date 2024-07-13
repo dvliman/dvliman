@@ -8,4 +8,4 @@ Posts:
 Side Projects:
  - [CNN Chrome Extension](https://github.com/dvliman/cnn-chrome-extension) (*hundreds of users per day*)
  - [Calculator2Go.com](https://calculator2go.com/)
- - [TinyLittlePaws](https://tinylittlepaws.com/) - dog grooming services
+ - [TinyLittlePaws](https://tinylittlepaws.com/) - dog grooming services - [*source code*](https://github.com/dvliman/paws)
