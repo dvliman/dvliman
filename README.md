@@ -6,7 +6,7 @@ Posts:
  - [Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL](https://dvliman.github.io/post/spring-webflux-kotlin-postgresql/) (*Mar 2019, dvliman.com*)
 
 Scratching some itch:
- - [CNN Chrome Extension](https://github.com/dvliman/cnn-chrome-extension) (*hundreds of users per day, they took it down*)
+ - [CNN Chrome Extension](https://github.com/dvliman/cnn-chrome-extension) (*hundreds of users per day*)
  - [Calculator2Go.com](https://calculator2go.com/)
  - [TinyLittlePaws](https://tinylittlepaws.com/) ([*source code*](https://github.com/dvliman/paws)) - dog grooming services
  - [Save Geolocation App](https://github.com/dvliman/r3) (*react native app to bookmark addresses*)
