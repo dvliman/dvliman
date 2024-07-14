@@ -1,4 +1,4 @@
-IHi there 👋
+Hi there 👋
 
 Posts: 
  - [Don't use clj-time, use clojure.java-time instead](https://dvliman.bearblog.dev/dont-use-clj-time-use-clojurejava-time-instead/) (*Jan 2024, bearblog.dev*)
