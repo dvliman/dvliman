@@ -10,6 +10,6 @@ Scratching some itch:
  - [Calculator2Go.com](https://calculator2go.com/)
  - [TinyLittlePaws](https://tinylittlepaws.com/) ([*source code*](https://github.com/dvliman/paws)) - dog grooming services
  - [Save Geolocation App](https://github.com/dvliman/r3) (*react native app to bookmark addresses*)
- - [Clojure LogSnag client](https://github.com/dvliman/logsnag) - *I like to hear **ka-ching** whenever CTA hits*
- - building keyboards, microcontrollers hacking (ortholinear, splits)
+ - [Clojure LogSnag client](https://github.com/dvliman/logsnag) - *I like to hear **ka-ching** when certain action happens*
+ - hacking with micro controllers, soldering and building custom keyboards and electronics (ortholinear, splits)
    
