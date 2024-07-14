@@ -10,5 +10,5 @@ Side Projects (*scratching itch with SEO, AdOps, JavaFX, etc, etc*)
  - [Calculator2Go.com](https://calculator2go.com/)
  - [TinyLittlePaws](https://tinylittlepaws.com/) ([*source code*](https://github.com/dvliman/paws)) - dog grooming services
  - [Save Geolocation App](https://github.com/dvliman/r3) (*taken down from app store - it was a react native app to save places one have been*)
- - [Clojure LogSnag client](https://github.com/dvliman/logsnag) - as an indie developer, I like to hear ka-ching whenever a CTA is hit
+ - [Clojure LogSnag client](https://github.com/dvliman/logsnag) - *I like to hear ka-ching whenever a CTA is hit*
  - played with micro-controllers; building keyboards
