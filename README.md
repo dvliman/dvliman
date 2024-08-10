@@ -12,4 +12,5 @@ Scratching some itch:
  - [Save Geolocation App](https://github.com/dvliman/r3) - *react native app to bookmark addresses*
  - [Clojure LogSnag client](https://github.com/dvliman/logsnag) - ***ka-ching** when certain action happens*
  - hacking with micro controllers, soldering and building custom keyboards and electronics (ortholinear, splits)
+ - [.clojure](https://github.com/dvliman/.clojure) - *custom clojure debugging reader macro*
    
