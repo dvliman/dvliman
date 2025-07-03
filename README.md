@@ -9,4 +9,4 @@ Posts:
 Apps:
  - Chrome Extension: White Background for E-Ink Display ([source code](https://github.com/dvliman/white-background-for-eink), Chrome Store)
  - CNN Chrome Extension ([source code](https://github.com/dvliman/cnn-chrome-extension), was taken down from Chrome but you can self-install)
- - iOS: Percent Apps -- quickly calculate percent change/increase/decrease for trading ([source code](https://github.com/dvliman/p), App Store)
+ - iOS: Percent Apps —— quickly calculate percent change/increase/decrease for trading ([source code](https://github.com/dvliman/p), App Store)
