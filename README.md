@@ -6,3 +6,7 @@ Posts:
  - [Building a Live Streaming app in Clojure](https://dev.to/dvliman/building-a-live-streaming-app-in-clojure-329m) ([Clojure Deref March 4, 2022](https://clojure.org/news/2022/03/04/deref))
  - [Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL](https://dvliman.github.io/post/spring-webflux-kotlin-postgresql/) 
    
+Apps:
+ - Chrome Extension: White Background for E-Ink Display ([source code](https://github.com/dvliman/white-background-for-eink), Chrome Store)
+ - CNN Chrome Extension ([source code](https://github.com/dvliman/cnn-chrome-extension), was taken down from Chrome but you can self-install)
+ - iOS: Percent Apps -- quickly calculate percent change/increase/decrease for trading ([source code](https://github.com/dvliman/p), App Store)
