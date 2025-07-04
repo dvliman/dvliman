@@ -6,7 +6,8 @@ Posts:
  - [Building a Live Streaming app in Clojure](https://dev.to/dvliman/building-a-live-streaming-app-in-clojure-329m) ([Clojure Deref March 4, 2022](https://clojure.org/news/2022/03/04/deref))
  - [Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL](https://dvliman.github.io/post/spring-webflux-kotlin-postgresql/) 
    
-Apps:
+Projects:
  - White Background for E-Ink Display ([source code](https://github.com/dvliman/white-background-for-eink), Chrome Web Store)
  - CNN Chrome Extension ([source code](https://github.com/dvliman/cnn-chrome-extension), was taken down but you can self-install)
  - iOS: Percent Apps — Quick percent change calculator for traders ([source code](https://github.com/dvliman/p), [App Store](https://apps.apple.com/app/percent-apps/id6747897383))
+ - Datastar — Exploring the [datastar](https://data-star.dev/) library. It is hypermedia framework like [HTMX](https://htmx.org/) ([source code](https://github.com/dvliman/datastar))
