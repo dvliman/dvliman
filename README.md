@@ -7,6 +7,6 @@ Posts:
  - [Building a reactive web service with Spring Webflux, Kotlin, and PostgreSQL](https://dvliman.github.io/post/spring-webflux-kotlin-postgresql/) 
    
 Apps:
- - Chrome Extension: White Background for E-Ink Display ([source code](https://github.com/dvliman/white-background-for-eink), Chrome Store)
+ - White Background for E-Ink Display ([source code](https://github.com/dvliman/white-background-for-eink), Chrome Web Store)
  - CNN Chrome Extension ([source code](https://github.com/dvliman/cnn-chrome-extension), was taken down but you can self-install)
  - iOS: Percent Apps — Quick percent change calculator for traders ([source code](https://github.com/dvliman/p), [App Store](https://apps.apple.com/app/percent-apps/id6747897383))
