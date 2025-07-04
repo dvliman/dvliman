@@ -11,3 +11,4 @@ Projects:
  - CNN Chrome Extension ([source code](https://github.com/dvliman/cnn-chrome-extension), was taken down but you can self-install)
  - iOS: Percent Apps — Quick percent change calculator for traders ([source code](https://github.com/dvliman/p), [App Store](https://apps.apple.com/app/percent-apps/id6747897383))
  - Datastar — Exploring the [datastar](https://data-star.dev/) library. It is hypermedia framework like [HTMX](https://htmx.org/) ([source code](https://github.com/dvliman/datastar))
+ - LOGSNAG - clojure client ([source code](https://github.com/dvliman/logsnag))
